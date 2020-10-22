@@ -6,3 +6,7 @@ The files `checkpoint_srresnet.pth` and `checkpoint_srgan.pth` are to put in the
 * The file `super_resolve.py` allows to compare the efficiency of three methods : SRGan, SRResNet and bicubic interpolation. 
 * The files `train_srgan.py` and `train_srresnet.py` alow to train a new network using a different dataset
 
+## Remarks:
+
+the programs provided are not modified compared to those available in the gitHub : https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Super-Resolution#some-more-examples
+
