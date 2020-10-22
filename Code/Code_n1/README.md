@@ -1,1 +1,2 @@
-After this, you should have ``pillow``, ``theano`` and ``lasagne`` installed in your virtual environment.  You'll also need to download this `pre-trained neural network <https://github.com/alexjc/neural-doodle/releases/download/v0.0/vgg19_conv.pkl.bz2>`_ (VGG19, 80Mb) and put it in the same folder as the script to run. To de-install everything, you can just delete the ``#/pyvenv/`` folder.
+https://github-production-release-asset-2e65be.s3.amazonaws.com/53228513/4a43c1c
+
