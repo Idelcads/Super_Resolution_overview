@@ -70,6 +70,8 @@ Au vu des précisions données pour chaque code, celui donnant le meilleur résu
 
 Le code n°2 permet d’obtenir des résultats qui ne sont pour le moment pas exploitable au vu des images obtenus. Cependant on peut reconnaitre que la fonction d’agrandissement est bien respectée. Le problème vient probablement d’une mauvaise lecture de l’image après traitement ou d’une mauvaise conversion. 
 
+![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/result_code2.png)
+
 Le code n°3 est très simple est permet simplement de charger un modèle pour le tester. Au vu du modèle utilisé pour le test le résultat reste cependant correct. 
 
 Concernant l’apprentissage d’un nouveau modèle on peut se servir des travaux présents dans le code n°1 et des travaux présenté dans le code n°3. A l’heure actuelle je ne sais pas quelle est la meilleure option envisageable pour ce projet à court et long terme.   
