@@ -15,3 +15,7 @@ The files `name.pkl.bz2` is to put in the folder containing the file `enhance.py
   * Process multiple good quality images with a single run, zoom factor 2:1.\
   `python3 enhance.py --type=photo --zoom=2 file1.jpg file2.jpg`\
   need the pretrained model : ne2x-photo-defaut-0.3.pkl.bz2\
+
+## Remarks:
+
+the programs provided are not modified compared to those available in the gitHub : https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Super-Resolution#some-more-examples
