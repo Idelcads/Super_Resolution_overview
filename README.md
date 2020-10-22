@@ -74,7 +74,7 @@ Le code n°2 permet d’obtenir des résultats qui ne sont pour le moment pas ex
 
 Le code n°3 est très simple est permet simplement de charger un modèle pour le tester. Au vu du modèle utilisé pour le test le résultat reste cependant correct. 
 
-Concernant l’apprentissage d’un nouveau modèle on peut se servir des travaux présents dans le code n°1 et des travaux présenté dans le code n°3. A l’heure actuelle je ne sais pas quelle est la meilleure option envisageable pour ce projet à court et long terme.   
+Concernant l’apprentissage d’un nouveau modèle on peut se servir des travaux présents dans le code n°1 et des travaux présenté dans le code n°3. A l’heure actuelle je ne sais pas quelle est la meilleure option envisageable pour un projet à court et long terme.   
 
 
 ---
