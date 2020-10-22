@@ -79,10 +79,13 @@ Concernant l’apprentissage d’un nouveau modèle on peut se servir des travau
 
 On s’intéresse désormais à la possibilité d’appliquer la méthode de Super Résolution à une vidéo et non plus à une image unique. Une publication [4] « SR_for_video.pdf » traite du sujet.
 
-Il est intéressant de noter pour le cas d’une image, le GAN ne reçoit en entré que l’image Low Résolution visible sur l’image ci-dessous.
-[IMAGE]
-Pour le cas d’une vidéo, le GAN reçoit en entré plusieurs images Low resolution t-1, t, t+1 tiré de la vidéo, afin de générer une nouvelle image t High resolution comme visible dans l’exemple ci-dessous.
-[IMAGE]
+Il est intéressant de noter pour le cas d’une image, le GAN ne reçoit en entré que l’image Low Résolution visible sur l’image suivante.
+
+![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/1.png)
+
+Pour le cas d’une vidéo, le GAN reçoit en entré plusieurs images Low resolution t-1, t, t+1 tiré de la vidéo, afin de générer une nouvelle image t High resolution comme visible dans l’exemple suivant.
+
+![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/2.png)
 
 ---
 \
