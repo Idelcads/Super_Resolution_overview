@@ -64,7 +64,9 @@ Il est possible d’entrainer un nouveau modèle ESCPN à l’aide des travaux s
 
 Le test a été réalisé avec une image de résolution médiocre (ali.png). Les résultats obtenus sont visibles dans la section résultats de chaque code. 
 
-Au vu des précisions données pour chaque code, celui donnant le meilleur résultat pour notre étude (SR sur une image de Mohammed Ali) est le n°1 qui permet en plus de comparer facilement les méthodes. Cela s’explique très probablement par le fait que le modèle a été appris avec des images ayant une certaine cohérence avec notre sujet. Cependant pour générer un modèle vraiment spécifique à nos attentes (améliorer la qualité d’une image de Mohammed Ali) il faudrait que notre modèle puisse apprendre en se servant de base de données d’image de portrait de célébrités disponible sur DockerHub par exemple. 
+Au vu des précisions données pour chaque code, celui donnant le meilleur résultat pour notre étude (SR sur une image de Mohammed Ali) est le n°1 qui permet en plus de comparer facilement les méthodes. Cela s’explique très probablement par le fait que le modèle a été appris avec des images ayant une certaine cohérence avec notre sujet. Cependant pour générer un modèle vraiment spécifique à nos attentes (améliorer la qualité d’une image de Mohammed Ali) il faudrait que notre modèle puisse apprendre en se servant de base de données d’image de portrait de célébrités disponible sur DockerHub par exemple. On peut observer le résultat suivant :  
+
+![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/result_code1.bmp)
 
 Le code n°2 permet d’obtenir des résultats qui ne sont pour le moment pas exploitable au vu des images obtenus. Cependant on peut reconnaitre que la fonction d’agrandissement est bien respectée. Le problème vient probablement d’une mauvaise lecture de l’image après traitement ou d’une mauvaise conversion. 
 
