@@ -1,2 +1,5 @@
-https://github-production-release-asset-2e65be.s3.amazonaws.com/53228513/4a43c1c
+Pre-trained models are not provided
+You can download it via this link : 
+https://drive.google.com/drive/folders/12OG-KawSFFs6Pah89V4a_Td-VcwMBE5i
 
+The files checkpoint_srresnet.pth and checkpoint_srgan.pth are to put in the folder containing the main.py file. 
