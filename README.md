@@ -96,7 +96,8 @@ Pour le cas d’une vidéo, le GAN reçoit en entré plusieurs images Low resolu
 # Tutorial to better understand GAN generation
 
 https://www.youtube.com/watch?v=5RYETbFFQ7s \
-https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html \
+https://towardsdatascience.com/build-a-super-simple-gan-in-pytorch-54ba349920e4 \
 
 \
 References
