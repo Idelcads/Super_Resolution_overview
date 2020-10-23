@@ -4,7 +4,8 @@
 The files `checkpoint_srresnet.pth` and `checkpoint_srgan.pth` are to put in the folder containing the file `super_resolve.py`
 
 * The file `super_resolve.py` allows to compare the efficiency of three methods : SRGan, SRResNet and bicubic interpolation. 
-* The files `train_srgan.py` and `train_srresnet.py` alow to train a new network using a different dataset
+* The files `train_srgan.py` and `train_srresnet.py` alow to train a new model using the network visible in the file `models.py` and a different dataset.
+* The file `models.py` contains the architecture used for the generator and discriminator networks
 
 ## Remarks:
 
