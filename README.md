@@ -59,8 +59,6 @@ Il est possible d’entrainer un nouveau modèle ESCPN à l’aide des travaux s
 
 3. Afin de ne pas saturer la mémoire (RAM) de mon pc seule des images basse résolution ont été utilisées pour réaliser les tests (ali.jpg et lowres.jpg).
 
-4. Le code n°2 ne donne pas en sortie de résultats satisfaisant (voir section résultats du code °2) provenant peut être du modèle utilisé ou d’une mauvaise conversion de l’image finale après traitement.
-
 
 ## Results
 
@@ -76,8 +74,7 @@ Le code n°2 permet d’obtenir des résultats qui ne sont pour le moment pas ex
 
 Le code n°3 est très simple est permet simplement de charger un modèle pour le tester. Au vu du modèle utilisé pour le test le résultat reste cependant correct. 
 
-Concernant l’apprentissage d’un nouveau modèle on peut se servir des travaux présents dans le code n°1 et des travaux présenté dans le code n°3. A l’heure actuelle je ne sais pas quelle est la meilleure option envisageable pour un projet à court et long terme.   
-
+Concerning the learning of a new model the code n°1 seems to be the best option. Furthermore if we need to modify the architecture of the generetor or the discriminator we can start from the file `models.py`
 
 ---
 
