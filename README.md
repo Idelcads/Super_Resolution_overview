@@ -8,7 +8,7 @@ I'm using `PyTorch-cpu 1.1.0`, `Scipy 1.5.2`, `Lasagne 0.2.dev1` and `Tensorflow
 
 ---
 # Project-1
-Ce projet a pour but de faire un état de l’art des méthodes utilisées pour augmenter la qualité des images à l’aide de méthodes de deep-learning (DL) et répertorier quelques codes disponibles afin d’augmenter la résolution d’une image de célébrité (Mohammed Ali).
+The Aim of this project is to make a survey of the principal methods used for increase the resolution of images using deep-learning (DL) algorithms and test few programs available. 
 
 [***Survey***](https://github.com/Idelcads/IMKI_Technical_test#Survey) \
 [***Existing_codes***](https://github.com/Idelcads/IMKI_Technical_test#Existing_codes) \
