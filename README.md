@@ -21,9 +21,10 @@ As a Head start in understanding GAN algorithms, some links are suggested in the
 ## Survey
 En premier lieu il est important de préciser qu’il semble ressortir 2 méthodes principales permettant d’augmenter la qualité d’une image via des méthodes de Deep Learning (DL) : 
 
-* **Méthode n°1 (CNN & GAN) :** Cette méthode est basée sur l’utilisation de méthodes de DL incluant des CNN et des GAN. Une publication [1] « Survey_SR.pdf » récapitule les différentes étapes permettant l’utilisation du DL pour la Super-Résolution(SR). Une autre publication [2] « GAN_for_SR.pdf » est dédiée à l’emploi des GAN pour des applications de SR. Tous les codes testés et fournis durant ce projet reprennent les méthodes détaillés dans ces deux publications et particulièrement l’architecture des GAN. 
+* **1st Method (CNN & GAN):** tTis method is based on the use on DL methods including CNN and GAN. This can also be found in literature, one publication [1] “Survey_SR.pdf” summarizes the different steps allowing the use of DL for Super-Resolution (SR). Another publication [2] “GAN_for_SR.pdf” is dedicated to the use of GANs in SR applications. The codes tested and provided during this project are based the methods detailed in these two publications and particularly the architecture of GANs.
 
-* **Méthode n°2 (without GAN) :** Une autre méthode semble être possible sans l’utilisation d’un GAN et est détaillée dans cet article [3] (https://towardsdatascience.com/deep-learning-based-super-resolution-without-using-a-gan-11c9bb5b6cd5). L’auteur justifie l’utilisation de la méthode de la manière suivante :   «  One of the limitations of GANs is that they are effectively a lazy approach as their loss function, the critic, is trained as part of the process and not specifically engineered for this purpose. This could be one of the reasons many models are only good at super resolution and not image repair ». Dans cet article, l’auteur détaille les différentes étapes mises en œuvre dont voicis la liste :
+* **2nd Method (without GAN):** another method, that seems to be possible without the use of GAN, is given in details in the following article [3] (https://towardsdatascience.com/deep-learning-based-super-resolution-without-using-a-gan-11c9bb5b6cd5). The author actually justifies the use of this method by stating that «  One of the limitations of GANs is that they are effectively a lazy approach as their loss function, the critic, is trained as part of the process and not specifically engineered for this purpose. This could be one of the reasons many models are only good at super resolution and not image repair ». In this article, the author goes into details about the different implemented steps:
+Une autre méthode semble être possible sans l’utilisation d’un GAN et est détaillée dans cet article [3] (https://towardsdatascience.com/deep-learning-based-super-resolution-without-using-a-gan-11c9bb5b6cd5). L’auteur justifie l’utilisation de la méthode de la manière suivante :   «  One of the limitations of GANs is that they are effectively a lazy approach as their loss function, the critic, is trained as part of the process and not specifically engineered for this purpose. This could be one of the reasons many models are only good at super resolution and not image repair ». Dans cet article, l’auteur détaille les différentes étapes mises en œuvre dont voicis la liste :
   * A U-Net architecture with cross connections similar to a DenseNet
   * A ResNet-34 based encoder and a decoder based on ResNet-34
   * Pixel Shuffle upscaling with ICNR initialisation
@@ -32,7 +33,7 @@ En premier lieu il est important de préciser qu’il semble ressortir 2 méthod
   * Discriminative learning rates
   * Progressive resizing 
  
-Cependant je ne me suis pas attardé sur la méthode n°2 car je n’ai trouvé aucun code ‘’prêt à l’emploi’’ et au vus du temps imparti cela ne semblait pas la bonne solution à court terme. 
+Though I did not dive into the details of the second method, seeing that i could not find a “ready to use” code. Also considering the given time frame it does not seem like the appropriate solution for the short term. 
 
 
 ## Existing_codes
