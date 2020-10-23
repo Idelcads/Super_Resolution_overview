@@ -74,7 +74,7 @@ Le code n°2 permet d’obtenir des résultats qui ne sont pour le moment pas ex
 
 Le code n°3 est très simple est permet simplement de charger un modèle pour le tester. Au vu du modèle utilisé pour le test le résultat reste cependant correct. 
 
-Concerning the learning of a new model the code n°1 seems to be the best option. Furthermore if we need to modify the architecture of the generetor or the discriminator we can start from the file `models.py`
+**Concerning the learning of a new model or the possibily to develop our own application the code n°1 seems to be the best option. Furthermore if we need to modify the architecture of the generetor or the discriminator we can easily start from the file `models.py`**
 
 ---
 
