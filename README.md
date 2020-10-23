@@ -42,16 +42,16 @@ Though I did not dive into the details of the second method, seeing that i could
 
 * **Code n°1:** \
 Code developed by Sagar Vinodabadu available on Github: (https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Super-Resolution#some-more-examples) \
-*Allows the reading of pre-trained models. ** .pth** (models generated via  the **PyTorch** framework) and the generating of new models. It also permits the comparison of three methods, GAN, RestNet and Bicubic interpolation.*\
+*Allows the reading of pre-trained models. **.pth** (models generated via  the **PyTorch** framework) and the generating of new models. It also permits the comparison of three methods, GAN, RestNet and Bicubic interpolation.*\
 The checkpoint_srgan.pth model was trained using the MS COCO database from 120K images (people, dog, landscape ...) 
 
 * **Code n°2:** \
 Code developed by Alex J. Champandard available on Github: (https://github.com/alexjc/neural-enhance#1-examples--usage) \
-*Allows the reading of pre-trained models. ** .pth.bz2** (models generated via  the **Lasagne** framework) and the generating of new models*\
+*Allows the reading of pre-trained models. **.pth.bz2** (models generated via  the **Lasagne** framework) and the generating of new models*\
 We are not aware of the Data bank of images used to generate the provided pre-trained models.
 
 * **Code n°3:** \
-*Allows the reading of pre-trained models. ** .pb** (models generated via  the **tensorflow** framework)*\
+*Allows the reading of pre-trained models. **.pb** (models generated via  the **tensorflow** framework)*\
 It is possible to train a new ESPCN model using the following works: https://github.com/fannymonori/TF-ESPCN. Though I did not go into the details of this possibility. 
 
 ## Remarks
@@ -64,17 +64,17 @@ It is possible to train a new ESPCN model using the following works: https://git
 
 ## Results
 
-Le test a été réalisé avec une image de résolution médiocre (ali.png). Les résultats obtenus sont visibles dans la section résultats de chaque code. 
+The test was performed with a low resolution image (ali.png). The obtained results are shown in the results section for each code.
 
-Au vu des précisions données pour chaque code, celui donnant le meilleur résultat pour notre étude (SR sur une image de Mohammed Ali) est le n°1 qui permet en plus de comparer facilement les méthodes. Cela s’explique très probablement par le fait que le modèle a été appris avec des images ayant une certaine cohérence avec notre sujet. Cependant pour générer un modèle vraiment spécifique à nos attentes (améliorer la qualité d’une image de Mohammed Ali) il faudrait que notre modèle puisse apprendre en se servant de base de données d’image de portrait de célébrités disponible sur DockerHub par exemple. On peut observer le résultat suivant :  
+In view of the details given for each code, the one with the best result for our study (SR on an image of Mohammed Ali) is n ° 1, which also makes it possible to easily compare the methods. This is most likely due to the fact that the model was learned with images that are somewhat consistent with our subject. However, to generate a model that is truly specific to our expectations (improving the quality of an image of Mohammed Ali), our model would need to be able to learn by using the celebrity portrait image database available on DockerHub for example. We can observe the following result:  
 
 ![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/result_code1.bmp)
 
-Le code n°2 permet d’obtenir des résultats qui ne sont pour le moment pas exploitable au vu des images obtenus. Cependant on peut reconnaitre que la fonction d’agrandissement est bien respectée. Le problème vient probablement d’une mauvaise lecture de l’image après traitement ou d’une mauvaise conversion. 
+The second code makes it possible to attain results that are currently not usable in view of the obtained images. However, we can recognize that the magnification function is well respected. The issue is most likely due to a poor reading of the image after processing or to a poor conversion. 
 
 ![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/result_code2.png)
 
-Le code n°3 est très simple est permet simplement de charger un modèle pour le tester. Au vu du modèle utilisé pour le test le résultat reste cependant correct. 
+The third code is very basic and it simply allows to charge a model to be tested. In view of the model used for the test, the result remains correct. 
 
 **Concerning the learning of a new model or the possibily to develop our own application the code n°1 seems to be the best option. Furthermore if we need to modify the architecture of the generetor or the discriminator we can easily start from the file `models.py`**
 
@@ -82,13 +82,13 @@ Le code n°3 est très simple est permet simplement de charger un modèle pour l
 
 # Project-2
 
-On s’intéresse désormais à la possibilité d’appliquer la méthode de Super Résolution à une vidéo et non plus à une image unique. Une publication [4] « SR_for_video.pdf » traite du sujet.
+We are now interested in the possibility of applying the Super Resolution method to a video and no longer to a single image. A publication [4] "SR_for_video.pdf" addresses the subject.
 
-Il est intéressant de noter pour le cas d’une image, le GAN ne reçoit en entré que l’image Low Résolution visible sur l’image suivante.
+It is interesting to note that for the case of an image, the low resolution image (shown in the following image) is the only entry for the GAN.
 
 ![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/1.png)
 
-Pour le cas d’une vidéo, le GAN reçoit en entré plusieurs images Low resolution t-1, t, t+1 tiré de la vidéo, afin de générer une nouvelle image t High resolution comme visible dans l’exemple suivant.
+In the case of a video, the GAN receives, as entry,  multiple low resolution images  t-1, t, t+1 taken from the video, in order to generate a new high resolution image t shown in the following example.
 
 ![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/2.png)
 
