@@ -38,28 +38,29 @@ Though I did not dive into the details of the second method, seeing that i could
 
 ## Existing_codes
 
-3 codes différents ont été testés. Tous basés sur la méthode GAN. Ces modèles permettent d’utiliser des modèles pré-entrainés. Ces modèles sont générés en utilisant des bases de données (via des banques d’image) comportant des images de haute qualité (HQ) qui sont volontairement dégradées puis utilisées en entré du modèle générateur. Les 3 codes permettent d’obtenir des résultats. L'intérêt de tester plusieurs codes est de pouvoir utiliser et générer des modèles à partir de différents frameworks.
+3 different codes were tested. All three of them based on the GAN method. They allow the use of pre-trained models. These models are generated using databases (via image banks) containing high quality images (HQ) that are voluntarily degraded then used as entries for the generator model. The advantage of testing several codes is to be able to test and generate models from different frameworks.
 
-* **Code n°1 :** Code développé par Sagar Vinodabadu disponible on GitHub (https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Super-Resolution#some-more-examples) \
-*Permet la lecture des modèles pré-entrainé **.pth** (modèles généré via le framework **PyTorch**) et de générer de nouveaux modèles. Permet la comparaison de trois méthodes, GAN, ResNet et Bicubic interpolation.*\
-Le modèle checkpoint_srgan.pth a été entrainé à l’aide de la base de données MS COCO à partir de 120K images (personne, chien, paysage …)
+* **Code n°1:** \
+Code developed by Sagar Vinodabadu available on Github: (https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Super-Resolution#some-more-examples) \
+*Allows the reading of pre-trained models. ** .pth** (models generated via  the **PyTorch** framework) and the generating of new models. It also permits the comparison of three methods, GAN, RestNet and Bicubic interpolation.*\
+The checkpoint_srgan.pth model was trained using the MS COCO database from 120K images (people, dog, landscape ...) 
 
-* **Code n°2 :** Code développé par Alex J. Champandard disponible on GitHub (https://github.com/alexjc/neural-enhance#1-examples--usage) \
-*Permet la lecture des modèles pré-entrainé **.pkl.bz2** (modèles généré via le framework **Lasagne**) et de générer de nouveaux modèles*\
-Nous n’avons pas connaissance des Data Bank d’images utilisées pour générer les modèles pré-entrainés fournis
+* **Code n°2:** \
+Code developed by Alex J. Champandard available on Github: (https://github.com/alexjc/neural-enhance#1-examples--usage) \
+*Allows the reading of pre-trained models. ** .pth.bz2** (models generated via  the **Lasagne** framework) and the generating of new models*\
+We are not aware of the Data bank of images used to generate the provided pre-trained models.
 
-* **Code n°3 :** \
-*Permet la lecture des modèles pré-entrainé **.pb** (modèles généré via le framework **tensorflow**)*\
-Il est possible d’entrainer un nouveau modèle ESCPN à l’aide des travaux suivant : https://github.com/fannymonori/TF-ESPCN Cependant je n’ai pas regardé plus en détail cette possibilité. 
+* **Code n°3:** \
+*Allows the reading of pre-trained models. ** .pb** (models generated via  the **tensorflow** framework)*\
+It is possible to train a new ESPCN model using the following works: https://github.com/fannymonori/TF-ESPCN. Though I did not go into the details of this possibility. 
 
 ## Remarks
 
-1. Ne possédant pas de pc suffisamment puissant il ne m’était pas possible de tenter d'entrainer mes propres modèles via les codes fournits.
+1. Not owning a powerful enough PC, it was impossible for me to traim my own models using the provided codes.
 
-2. Tous les calculs ont été effectués via le CPU.
+2. All calculation were made using the CPU.
 
-3. Afin de ne pas saturer la mémoire (RAM) de mon pc seule des images basse résolution ont été utilisées pour réaliser les tests (ali.jpg et lowres.jpg).
-
+3. In order to not overload the memory (RAM) of my PC, only low resolution images were used for the tests (ali.jpg and lowres.jpg).
 
 ## Results
 
