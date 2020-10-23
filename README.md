@@ -92,6 +92,12 @@ Pour le cas d’une vidéo, le GAN reçoit en entré plusieurs images Low resolu
 ![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/2.png)
 
 ---
+
+# Tutorial to better understand GAN generation
+
+https://www.youtube.com/watch?v=5RYETbFFQ7s \
+https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html
+
 \
 References
 
