@@ -19,7 +19,8 @@ As a Head start in understanding GAN algorithms, some links are suggested in the
 
 
 ## Survey
-En premier lieu il est important de préciser qu’il semble ressortir 2 méthodes principales permettant d’augmenter la qualité d’une image via des méthodes de Deep Learning (DL) : 
+
+First of all, it is important to specify that it seems to emerge 2 main methods allowing to increase the quality of an image via Deep Learning methods (DL) : 
 
 * **1st Method (CNN & GAN):** tTis method is based on the use on DL methods including CNN and GAN. This can also be found in literature, one publication [1] “Survey_SR.pdf” summarizes the different steps allowing the use of DL for Super-Resolution (SR). Another publication [2] “GAN_for_SR.pdf” is dedicated to the use of GANs in SR applications. The codes tested and provided during this project are based the methods detailed in these two publications and particularly the architecture of GANs.
 
