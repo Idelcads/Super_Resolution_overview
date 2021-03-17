@@ -1,4 +1,4 @@
-# IMKI_Technical_test
+# Technical_test
 [***Project-1***](https://github.com/Idelcads/IMKI_Technical_test#Project-1) \
 [***Project-2***](https://github.com/Idelcads/IMKI_Technical_test#Project-2) 
 
