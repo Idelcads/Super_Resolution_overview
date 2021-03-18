@@ -1,4 +1,4 @@
-# Super Resolution Overview: Personal Project
+# Super Resolution Overview: Personal Project (July 2020)
 [***Project-1***](https://github.com/Idelcads/Super_Resolution_overview#Project-1) \
 [***Project-2***](https://github.com/Idelcads/Super_Resolution_overview#Project-2) 
 
