@@ -1,6 +1,6 @@
-# Presentation
-[***Project-1***](https://github.com/Idelcads/IMKI_Technical_test#Project-1) \
-[***Project-2***](https://github.com/Idelcads/IMKI_Technical_test#Project-2) 
+# Super Resolution Overview: Personal Project
+[***Project-1***](https://github.com/Idelcads/Super_Resolution_overview#Project-1) \
+[***Project-2***](https://github.com/Idelcads/Super_Resolution_overview#Project-2) 
 
 ---
 
@@ -12,10 +12,10 @@ The Aim of this personal project is to make a survey of the principal methods us
 
 As a Head start in understanding GAN algorithms, some links are suggested in the last section.
 
-[***Survey***](https://github.com/Idelcads/IMKI_Technical_test#Survey) \
-[***Existing_codes***](https://github.com/Idelcads/IMKI_Technical_test#Existing_codes) \
-[***Remarks***](https://github.com/Idelcads/IMKI_Technical_test#Remarks) \
-[***Problems***](https://github.com/Idelcads/IMKI_Technical_test#Problems) 
+[***Survey***](https://github.com/Idelcads/Super_Resolution_overview#Survey) \
+[***Existing_codes***](https://github.com/Idelcads/Super_Resolution_overview#Existing_codes) \
+[***Remarks***](https://github.com/Idelcads/Super_Resolution_overview#Remarks) \
+[***Problems***](https://github.com/Idelcads/Super_Resolution_overview#Problems) 
 
 
 ## Survey
@@ -69,11 +69,11 @@ The test was performed with a low resolution image (ali.png). The obtained resul
 
 In view of the details given for each code, the one with the best result for our study (SR on an image of Mohammed Ali) is n ° 1, which also makes it possible to easily compare the methods. This is most likely due to the fact that the model was learned with images that are somewhat consistent with our subject. However, to generate a model that is truly specific to our expectations (improving the quality of an image of Mohammed Ali), our model would need to be able to learn by using the celebrity portrait image database available on DockerHub for example. We can observe the following result:  
 
-![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/result_code1.bmp)
+![alt text](https://github.com/Idelcads/Super_Resolution_overview/blob/main/Images_readme/result_code1.bmp)
 
 The second code makes it possible to attain results that are currently not usable in view of the obtained images. However, we can recognize that the magnification function is well respected. The issue is most likely due to a poor reading of the image after processing or to a poor conversion. 
 
-![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/result_code2.png)
+![alt text](https://github.com/Idelcads/Super_Resolution_overview/blob/main/Images_readme/result_code2.png)
 
 The third code is very basic and it simply allows to charge a model to be tested. In view of the model used for the test, the result remains correct. 
 
@@ -87,11 +87,11 @@ We are now interested in the possibility of applying the Super Resolution method
 
 It is interesting to note that for the case of an image, the low resolution image (shown in the following image) is the only entry for the GAN.
 
-![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/1.png)
+![alt text](https://github.com/Idelcads/Super_Resolution_overview/blob/main/Images_readme/1.png)
 
 In the case of a video, the GAN receives, as entry,  multiple low resolution images  t-1, t, t+1 taken from the video, in order to generate a new high resolution image t shown in the following example.
 
-![alt text](https://github.com/Idelcads/IMKI_Technical_test/blob/main/Images_readme/2.png)
+![alt text](https://github.com/Idelcads/Super_Resolution_overview/blob/main/Images_readme/2.png)
 
 ---
 
