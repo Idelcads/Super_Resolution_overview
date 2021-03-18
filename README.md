@@ -8,7 +8,7 @@ I'm using `PyTorch-cpu 1.1.0`, `Scipy 1.5.2`, `Lasagne 0.2.dev1` and `Tensorflow
 
 ---
 # Project-1
-The Aim of this project is to make a survey of the principal methods used for increase the resolution of images using deep-learning (DL) algorithms and test few programs available.
+The Aim of this personal project is to make a survey of the principal methods used for increase the resolution of images using deep-learning (DL) algorithms and test few programs available.
 
 As a Head start in understanding GAN algorithms, some links are suggested in the last section.
 
